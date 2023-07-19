@@ -1,15 +1,17 @@
 #include "main.h"
 /**
- * _abs - gets the abosoulute value of an integer
+ * _abs - computes the absolute value of an integrer
+ *
  * @n: the int to check
- * return: the abs of the integer
+ *
+ * Return: the absolute value of int
+ *
  */
-int _abs(int)
+int _abs(int n)
 {
-	if (n>0)
+	if (n >= 0)
 	{
-		return n;
+		return (n);
 	}
-	else 
-		return -n;
+	return (-n);
 }
