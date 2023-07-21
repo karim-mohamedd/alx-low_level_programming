@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_line - printing a line 
+ * print_line - printing a line
  *
- * @length: input integer define the length of it
+ * @n: input integer define the length of it
  *
  * Return: Always 0 (Success)
 */
@@ -10,6 +10,7 @@
 void print_line(int n)
 {
 	int length;
+
 	if (n <= 0)
 		_putchar('\n');
 	else
