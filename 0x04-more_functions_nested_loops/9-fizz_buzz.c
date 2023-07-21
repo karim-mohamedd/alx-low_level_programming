@@ -15,26 +15,26 @@ int main(void)
 	{
 		if (i % 3 == 0 && i % 5 != 0)
 		{
-			_putchar("Fizz");
+			printf("Fizz");
 		}
 		else if (i % 5 == 0 && i % 3 != 0)
 		{
-			_putchar("Buzz");
+			printf("Buzz");
 		}
 		else if (i % 3 == 0 && i % 5 == 0)
 		{
-			_putchar("FizzBuzz");
+			printf("FizzBuzz");
 		}
 		else if (i == 1)
 		{
-			_putchar(i + 48);
+			printf(i + 48);
 		}
 		else
 		{
-			_putchar(i + 48);
+			printf(i + 48);
 		}
 	}
-	_putchar("\n");
+	printf("\n");
 
 	return (0);
 }
