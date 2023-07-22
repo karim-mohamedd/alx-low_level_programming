@@ -27,11 +27,11 @@ int main(void)
 		}
 		else if (i == 1)
 		{
-			printf(i + 48);
+			printf("%d", i);
 		}
 		else
 		{
-			printf(i + 48);
+			printf("%d", i);
 		}
 	}
 	printf("\n");
