@@ -9,8 +9,8 @@
 
 void reverse_array(int *a, int n)
 {
-	int i ;
-	int j ;
+	int i;
+	int j;
 
 	while (a[i] != '\0')
 	{
