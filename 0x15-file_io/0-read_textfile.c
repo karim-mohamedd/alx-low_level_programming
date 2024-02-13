@@ -1,7 +1,7 @@
 #include <main.h>
 
 /**
- * read_textfile - reads text from a file and print it 
+ * read_textfile - reads text from a file and print it
  * @file_name: name of the file to read
  * @letters: number of bytes to read
  *
@@ -14,7 +14,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	ssize_t bytes;
 	char buf[READ_BUF_SIZE * 8];
 
-	if (! filename || !letters)
+	if (!filename || !letters)
 		return (0);
 	fd = open(file_name, O_RDONLY);
 	if (fd == -1)
